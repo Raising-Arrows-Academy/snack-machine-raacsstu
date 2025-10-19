@@ -23,9 +23,10 @@ def main():
     print("=" * 45)
     print("\n📋 Available snacks:")
     print("1. 🍿 Chips - $1.50")
-    print("2. 🍫 Chocolate Bar - $2.00") 
+    print("2. 🍫 Chocolate Bar - $2.00")
     print("3. 🥜 Granola Bar - $1.25")
     print("4. 🥤 Soda - $1.75")
+    print("5. 🍫 Snickers - $2.25")
     print("-" * 30)
     
     # ═══════════════════════════════════════════════════════════════
@@ -41,7 +42,8 @@ def main():
         "1": {"name": "Chips", "price": 1.50, "emoji": "🍿"},
         "2": {"name": "Chocolate Bar", "price": 2.00, "emoji": "🍫"},
         "3": {"name": "Granola Bar", "price": 1.25, "emoji": "🥜"},
-        "4": {"name": "Soda", "price": 1.75, "emoji": "🥤"}
+        "4": {"name": "Soda", "price": 1.75, "emoji": "🥤"},
+        "5": {"name": "Snickers", "price": 2.25, "emoji": "🍫"},
     }
     
     # Process the user's choice
@@ -67,8 +69,8 @@ def main():
         print("🔄 Processing...")
         print(f"📦 Dispensing your {snack_name}... Enjoy! 😋")
     else:
-        print("❌ Invalid selection. Please run the program again and choose 1-4.")
-        print("💡 Tip: Make sure to enter only the number (1, 2, 3, or 4)")
+        print("❌ Invalid selection. Please run the program again and choose 1-5.")
+        print("💡 Tip: Make sure to enter only the number (1, 2, 3, 4, or 5)")
     
     print("\n🎓 Thanks for learning about the IPO model!")
     print("=" * 45)
