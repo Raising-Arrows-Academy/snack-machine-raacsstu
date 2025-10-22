@@ -27,6 +27,7 @@ def main():
     print("3. 🥜 Granola Bar - $1.25")
     print("4. 🥤 Soda - $1.75")
     print("5. 🍫 Snickers - $2.25")
+    print("6. 🥯 Bagels - $1.00 (Not available)")
     print("-" * 30)
     
     # ═══════════════════════════════════════════════════════════════
@@ -44,6 +45,7 @@ def main():
         "3": {"name": "Granola Bar", "price": 1.25, "emoji": "🥜"},
         "4": {"name": "Soda", "price": 1.75, "emoji": "🥤"},
         "5": {"name": "Snickers", "price": 2.25, "emoji": "🍫"},
+        "6": {"name": "Bagels", "price": 1.00, "emoji": "🥯"},
     }
     
     # Process the user's choice
